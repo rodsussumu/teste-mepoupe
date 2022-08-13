@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { AverageService } from './domain/services/average.service';
-import { AverageController } from './infra/controllers/average.controllers';
+import { AverageController } from './infra/controllers/average.controller';
 
 @Module({
   imports: [],
