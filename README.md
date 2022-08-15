@@ -11,4 +11,4 @@
 
 ## Routes Documentation
 
-After executing the project locally, you can access `http://localhost:3333/swagger` to see an OpenAPI documentation.
+After executing the project locally, you can access `http://localhost:3000/swagger` to see an OpenAPI documentation.

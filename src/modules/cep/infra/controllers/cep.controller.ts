@@ -13,7 +13,7 @@ export class CepController {
   @ApiResponse({ status: 201, description: 'Busca feita com sucesso' })
   @ApiResponse({ status: 400, description: 'Parâmetros inválidos' })
   async post(@Body() cepDto: CepDto) {
-    this.logger.verbose(`Buscando cep ${cepDto.cep}`);
+    this.logger.log(`Buscando cep ${cepDto.cep}`);
     return this.cepService.getDataByCep(cepDto);
   }
 }
