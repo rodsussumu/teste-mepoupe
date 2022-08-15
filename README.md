@@ -6,7 +6,10 @@
 
 ## How to run the project?
 
+### First method
 - Run `npm install` to install the dependencies
+- Execute `npm run start:dev`
+### Second method
 - Execute `docker-compose up`
 
 ## Routes Documentation
