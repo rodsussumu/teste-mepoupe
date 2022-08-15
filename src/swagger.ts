@@ -3,7 +3,7 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 
 export const swagger = (app: INestApplication) => {
   const config = new DocumentBuilder()
-    .setTitle('Water Jug Challenge')
+    .setTitle('Teste MePoupe Backend Jr')
     .setDescription('')
     .setVersion('1.0')
     .build();
