@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "fb0f9a87-ac71-4729-873d-ee0460aca64c",
+		"name": "Teste Me Poupe! - Backend Node.js Jr",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11227384"
+	},
+	"item": [
+		{
+			"name": "Average",
+			"item": [
+				{
+					"name": "Post numbers",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstNumber\": -30,\r\n    \"secondNumber\": -17\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3333/average",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"average"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cep",
+			"item": [
+				{
+					"name": "Post cep",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cep\": \"09551-010\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/cep",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cep"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
